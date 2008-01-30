@@ -1,4 +1,5 @@
 #summary A small guide to assist in getting started building the LiteNMS system.
+#labels Featured
 
 = Introduction =
 
