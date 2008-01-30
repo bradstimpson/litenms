@@ -1,0 +1,13 @@
+#summary A small guide to assist in getting started building the LiteNMS system.
+
+= Introduction =
+
+Getting started building LiteNMS is a relatively simple process.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
