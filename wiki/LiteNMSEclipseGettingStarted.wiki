@@ -55,4 +55,4 @@ Each step is covered in detail below:
 
 Here are some of the most common problems I have encountered.
 
-1.  _Maven plugin does not work_:  Most of the time this is because the plugin can not find the Maven local repository, usually installed under {User HOME}/.m2/repository.  If you create this directory and then execute export MAVEN_HOME = "{USER_HOME}/.m2/"  it should correct the issue.
+1.  _Maven plugin does not work_:  Most of the time this is because the plugin can not find the Maven local repository, usually installed under {User HOME}/.m2/repository.  If you create this directory and then execute export MAVEN_HOME = "{USER_HOME}/.m2/"  it should correct the issue, where {USER_HOME} equals your home directory.
