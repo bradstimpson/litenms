@@ -16,6 +16,22 @@ Eclipse is a powerful Integrated Development Environment (IDE) for developing ap
 
 There are many different versions available, for example, J2EE edition, C++ edition, etc...  Since LiteNMS is written in Java it is recommended that the J2EE edition is downloaded.  This can be found here (Linux version):  http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/20071103/eclipse-jee-europa-fall2-linux-gtk.tar.gz
 
+= Maven 2 Plugin =
+
+The build system of LiteNMS uses Maven.  Maven is an advanced project build tool, which can be considered as the Object Oriented version of Ant.  Maven is great at managing complex dependencies which is ideal for LiteNMS as it uses many 3rd party libraries.
+
+To assist with development you can add a Maven 2 plugin to Eclipse.  This will allow you to run Maven goals (compile options) on the project directly from within Eclipse with no need for a command-line.  However, you should keep in mind that building the project from within Eclipse is magnitudes slower then from the command-line in Linux.
+
+It is preferred that you install the Maven 2 plugin by using the Eclipse update site.  Eclipse has the ability to add plugins via a simple utility.  To install the Maven 2 plugin, perform the following steps:
+
+ * *STEP 1:*  Open Eclipse and navigate to the Help -> Software Updates -> Find and Install...
+ * *STEP 2:*  When the Window appears, click the radio button that says 'Search for new features to Install', and click Next.
+ * *STEP 3:*  Click the 'New Remote Site...' button and in the window that appears add for the name "Maven 2 Plugin'  and the url "http://m2eclipse.codehaus.org/".
+ * *STEP 4:*  Click Ok and then click Next.  You should be asked a series of questions, Agree and continue with downloading/installation.
+
+= SubClipse Eclipse Subversion Plugin =
+
+The Subclipse plugin is used to access code stored within an SVN repository.  SVN is a very powerful source code revisioning system that allows for complex code merges, code branching and code reversion to older versions.
 
 = Details =
 
