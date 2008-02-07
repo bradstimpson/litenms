@@ -63,3 +63,5 @@ export JAVA_HOME=/usr/lib/jvm/java-1.5.0-sun
 export MAVEN_HOME=/home/bstimpson/.m2
 export MAVEN_OPTS=-Xmx1024m
 }}}
+
+*NOTE:*  You may want to adjust some of the memory values in the above options to match the amount of system memory available (i.e. if you have 512Mb ram, set -Xms40m -Xmx 256).
