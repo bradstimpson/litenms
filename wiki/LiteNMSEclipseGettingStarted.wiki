@@ -33,11 +33,20 @@ It is preferred that you install the Maven 2 plugin by using the Eclipse update 
 
 The Subclipse plugin is used to access code stored within an SVN repository.  SVN is a very powerful source code revisioning system that allows for complex code merges, code branching and code reversion to older versions.
 
-Installing the Subclipse plugin for Eclipse can be accomplished by following the same procedure for the Maven 2 plugin.  Instead, the name will be 'Subclipse 1.2.x (Eclipse 3.2+)' and the url will be 'http://subclipse.tigris.org/update_1.2.x'.  For a further detailed set of instructions you can refer to Subclipse Installation [http://subclipse.tigris.org/install.html].
+Installing the Subclipse plugin for Eclipse can be accomplished by following the same procedure for the Maven 2 plugin.  Instead, the name will be 'Subclipse 1.2.x (Eclipse 3.2+)' and the url will be 'http://subclipse.tigris.org/update_1.2.x'.  For a further detailed set of instructions you can refer to [http://subclipse.tigris.org/install.html Subclipse Installation].
 
-= Details =
+== Linux/BSD ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Ideally, to build/develop for LiteNMS, you should use a Linux/BSD operating system.  Linux/BSD provides a suite of tools out-of-the-box that are indispensable as a developer.  However, if would prefer to use a Windows variant for your development, it is not impossilbe.  First of all, you will need to download Cygwin.  Cygwin is a Linux emulator for Windows which uses a simple dynamic link library (dll) or shared library to access the underlying Windows operating system.  Cygwin can provide all the tools you will need to develop LiteNMS.  You can download Cygwin from: http://cygwin.com/
+
+= First Steps =
+
+So now you should have your development environment setup with the required plugins.  You will need to perform the following steps:
+
+ * Check the code out of the SVN
+ * Run the setup.sh script, which will setup your environment.  It will create the needed directories as well as install some LiteNMS dependencies into your local Maven repository.
+ * Perform your first 'in Eclipse build' (Alternatively, you can build from the command-line if desired).
+ * Add the Maven dependencies to the build path.
+ * Update your source folders.
+
+Each step is covered in detail below:
