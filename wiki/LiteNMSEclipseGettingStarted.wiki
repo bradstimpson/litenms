@@ -10,13 +10,13 @@ In order to develop LiteNMS you will need the following pieces of Software:
   * Subclipse for Subversion access
   * (Optional) A Linux shell is ideal for development of LiteNMS as it will simplify the entire build process.  Moreover, most if not all of the build scripts supplied with LiteNMS are made for Linux/BSD.
 
-= Eclipse 3.3 Europa =
+== Eclipse 3.3 Europa ==
 
 Eclipse is a powerful Integrated Development Environment (IDE) for developing applications.  Eclipse is a very versatile IDE based on the concept of adding bundles (plugins) in run-time based on OSGi.  You can dowload at:  http://www.eclipse.org
 
 There are many different versions available, for example, J2EE edition, C++ edition, etc...  Since LiteNMS is written in Java it is recommended that the J2EE edition is downloaded.  This can be found here (Linux version):  http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/20071103/eclipse-jee-europa-fall2-linux-gtk.tar.gz
 
-= Maven 2 Plugin =
+== Maven 2 Plugin ==
 
 The build system of LiteNMS uses Maven.  Maven is an advanced project build tool, which can be considered as the Object Oriented version of Ant.  Maven is great at managing complex dependencies which is ideal for LiteNMS as it uses many 3rd party libraries.
 
@@ -29,9 +29,11 @@ It is preferred that you install the Maven 2 plugin by using the Eclipse update 
  * *STEP 3:*  Click the 'New Remote Site...' button and in the window that appears add for the name "Maven 2 Plugin'  and the url "http://m2eclipse.codehaus.org/".
  * *STEP 4:*  Click Ok and then click Next.  You should be asked a series of questions, Agree and continue with downloading/installation.
 
-= SubClipse Eclipse Subversion Plugin =
+== Subclipse Eclipse Subversion Plugin ==
 
 The Subclipse plugin is used to access code stored within an SVN repository.  SVN is a very powerful source code revisioning system that allows for complex code merges, code branching and code reversion to older versions.
+
+Installing the Subclipse plugin for Eclipse can be accomplished by following the same procedure for the Maven 2 plugin.  Instead, the name will be 'Subclipse 1.2.x (Eclipse 3.2+)' and the url will be 'http://subclipse.tigris.org/update_1.2.x'.  For a further detailed set of instructions you can refer to Subclipse Installation [http://subclipse.tigris.org/install.html].
 
 = Details =
 
