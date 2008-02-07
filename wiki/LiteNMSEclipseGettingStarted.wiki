@@ -3,8 +3,15 @@
 
 = Introduction =
 
-Add your content here.
+In order to develop LiteNMS you will need the following pieces of Software:
 
+*Eclipse 3.3 (Europa)
+*Maven Plugin for Eclipse
+*Subclipse for Subversion access
+
+= Eclipse 3.3 Europa =
+
+Eclipse is a powerful Integrated Development Environment (IDE) for developing applications.  Eclipse is a very versatile IDE based on the concept of adding bundles (plugins) in run-time based on OSGi.  You can dowload at:  http://www.eclipse.org
 
 = Details =
 
