@@ -58,6 +58,18 @@ Each step is covered in detail below:
  # The new project window should appear.  Enter the name of the project and click next.
  # Voila!  After some downloading, you should have the project in your workspace.
 
+== Execute the setup.sh script ==
+
+ # Execute the setup.sh script by navigating to the root directory litenms/ and typing ./setup.sh .  This will install the dependencies in the dependencies folder, create your maven repository and copy settings.xml to this repository.
+
+== Enable the Maven Plugin ==
+
+ # In Eclipse, navigate to the litenms project.  Right click at the root of the project, go to Maven -> Enable.  This will now proceed to build the project.  If you encounter problems, please see below.
+
+== Update Source Folders ==
+
+ # Now, following the correct build, right click on the root of the project and go to Maven -> Update Source Folders.
+ 
 = Encountered Problems =
 
 Here are some of the most common problems I have encountered.
