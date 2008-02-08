@@ -97,4 +97,13 @@ Url: http://subclipse.tigris.org/update_1.2.x
 
 Name: Spring IDE 1.3.1
 Url: http://springide.org/updatesite/
+
+Name: Groovy IDE
+Url: http://dist.codehaus.org/groovy/distributions/update/
+
+Name: Jboss Tools
+Url: http://download.jboss.org/jbosstools/updates/stable
+
+Name:  Jboss Rules IDE
+Url: http://downloads.jboss.com/drools/updatesite/
 }}}
