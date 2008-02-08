@@ -56,6 +56,7 @@ Each step is covered in detail below:
  # Navigate to the trunk of the repository.  Right-click on it and go to checkout.
  # A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
  # The new project window should appear.  Enter the name of the project and click next.
+ # Voila!  After some downloading, you should have the project in your workspace.
 
 = Encountered Problems =
 
