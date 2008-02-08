@@ -105,5 +105,5 @@ Name: Jboss Tools
 Url: http://download.jboss.org/jbosstools/updates/stable
 
 Name:  Jboss Rules IDE
-Url: http://downloads.jboss.com/drools/updatesite/
+Url: http://downloads.jboss.com/drools/updatesite3.3/
 }}}
