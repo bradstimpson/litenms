@@ -51,6 +51,12 @@ So now you should have your development environment setup with the required plug
 
 Each step is covered in detail below:
 
+== Check out from SVN ==
+ # First, add the google SVN to the subclipse SVN list.  This can be accomplished by clicking the little repository button at the top of the browse pane.
+ # Navigate to the trunk of the repository.  Right-click on it and go to checkout.
+ # A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
+ # The new project window should appear.  Enter the name of the project and click next.
+
 = Encountered Problems =
 
 Here are some of the most common problems I have encountered.
@@ -69,9 +75,10 @@ export MAVEN_OPTS=-Xmx1024m
 = Plugins Summary =
 
 Here is a brief summary of all the plugins I use in Eclipse:
-
+{{{
 Name:  Maven 2 Plugin
 Url: http://m2eclipse.codehaus.org/
 
 Name: Subclipse 1.2.x (Eclipse 3.2+)
 Url: http://subclipse.tigris.org/update_1.2.x
+}}}
