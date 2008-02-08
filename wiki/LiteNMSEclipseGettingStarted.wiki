@@ -65,3 +65,13 @@ export MAVEN_OPTS=-Xmx1024m
 }}}
 
 *NOTE:*  You may want to adjust some of the memory values in the above options to match the amount of system memory available (i.e. if you have 512Mb ram, set -Xms40m -Xmx 256).
+
+= Plugins Summary =
+
+Here is a brief summary of all the plugins I use in Eclipse:
+
+Name:  Maven 2 Plugin
+Url: http://m2eclipse.codehaus.org/
+
+Name: Subclipse 1.2.x (Eclipse 3.2+)
+Url: http://subclipse.tigris.org/update_1.2.x
