@@ -35,6 +35,8 @@ The Subclipse plugin is used to access code stored within an SVN repository.  SV
 
 Installing the Subclipse plugin for Eclipse can be accomplished by following the same procedure for the Maven 2 plugin.  Instead, the name will be 'Subclipse 1.2.x (Eclipse 3.2+)' and the url will be 'http://subclipse.tigris.org/update_1.2.x'.  For a further detailed set of instructions you can refer to [http://subclipse.tigris.org/install.html Subclipse Installation].
 
+NOTE:  When installing Subclipse 1.2.x you should deselect 'Integrations (Optional)'.  This feature attempts to add Buckminster support to Subclipse (Buckminster is a set of frameworks and tools for automating build, assemble & deploy (BA&D) development processes in complex or distributed component-based development.).   We do not require this feature to build LiteNMS. 
+
 == Linux/BSD ==
 
 Ideally, to build/develop for LiteNMS, you should use a Linux/BSD operating system.  Linux/BSD provides a suite of tools out-of-the-box that are indispensable as a developer.  However, if would prefer to use a Windows variant for your development, it is not impossilbe.  First of all, you will need to download Cygwin.  Cygwin is a Linux emulator for Windows which uses a simple dynamic link library (dll) or shared library to access the underlying Windows operating system.  Cygwin can provide all the tools you will need to develop LiteNMS.  You can download Cygwin from: http://cygwin.com/
