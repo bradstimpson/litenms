@@ -85,6 +85,9 @@ export MAVEN_OPTS=-Xmx1024m
 
 *NOTE:*  You may want to adjust some of the memory values in the above options to match the amount of system memory available (i.e. if you have 512Mb ram, set -Xms40m -Xmx 256).
 
+2.  _SubClipse plugin won't install_:  This could be caused by a couple of things.  1)  You are not running Eclipse 3.2 or newer or 2) you selected to install all the options.  If you selected to install all the options this will cause a dependency error.  If you open the tree under Subclipse 1.2.x (Eclipse 3.2+), you will see 'Integrations (Optional)'.  If you deselect this, the dependency error should be removed.
+
+
 = Plugins Summary =
 
 Here is a brief summary of all the plugins I use in Eclipse:
