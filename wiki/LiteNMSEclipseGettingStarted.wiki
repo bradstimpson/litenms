@@ -78,8 +78,10 @@ AND YOUR PASSWORD FROM THIS SITE (http://code.google.com/hosting/settings)
 }}}
 
 
- * Right click on the project and go to 'Checkout'
- # A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
+ * Right click on the project and go to 'Checkout'. A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
+
+http://litenms.googlecode.com/files/Subclipse4.jpg
+
  # The new project window should appear.  Enter the name of the project and click next.
  # Voila!  After some downloading, you should have the project in your workspace.
 
