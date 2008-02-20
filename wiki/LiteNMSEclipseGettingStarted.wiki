@@ -58,7 +58,13 @@ Each step is covered in detail below:
 == Check out from SVN ==
  # First, you will want to open the SVN repository exploring perspective.  You can accomplish this by going to Window -> Open Perspective -> Other.  In the Popup window, select 'SVN Repository Exploring'. 
  # Now, add the google SVN to the subclipse SVN list.  This can be accomplished by clicking the little repository button at the top of the browse pane.
+
 http://litenms.googlecode.com/files/Subclipse1.jpg
+
+A new window should appear.  Enter 'https://litenms.googlecode.com/svn/trunk'.
+
+http://litenms.googlecode.com/files/Subclipse2.jpg
+
  # Navigate to the trunk of the repository.  Right-click on it and go to checkout.
  # A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
  # The new project window should appear.  Enter the name of the project and click next.
