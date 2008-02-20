@@ -82,7 +82,11 @@ AND YOUR PASSWORD FROM THIS SITE (http://code.google.com/hosting/settings)
 
 http://litenms.googlecode.com/files/Subclipse4.jpg
 
- * After a few seconds a window will appear asking you if you really want to checkout the root of the project.  Click 'Yes'.  The new project 'Select a Wizard' window should appear.  Select Java Project and click 'Next.  Enter the name of the project 'litenms' and click next.
+ * After a few seconds a window will appear asking you if you really want to checkout the root of the project.  Click 'Yes'.  The new project 'Select a Wizard' window should appear.  
+
+http://litenms.googlecode.com/files/Subclipse5.jpg
+
+ * Select Java Project and click 'Next.  In the Java Project Window that appears, enter the name of the project 'litenms' and click Finish.
  * Voila!  After some downloading, you should have the project in your workspace.
 
 == Execute the setup.sh script ==
