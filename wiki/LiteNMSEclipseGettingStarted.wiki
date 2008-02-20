@@ -14,7 +14,7 @@ In order to develop LiteNMS you will need the following pieces of Software:
 
 Eclipse is a powerful Integrated Development Environment (IDE) for developing applications.  Eclipse is a very versatile IDE based on the concept of adding bundles (plugins) in run-time based on OSGi.  You can dowload at:  http://www.eclipse.org
 
-There are many different versions available, for example, J2EE edition, C++ edition, etc...  Since LiteNMS is written in Java it is recommended that the J2EE edition is downloaded.  This can be found here (Linux version):  http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/20071103/eclipse-jee-europa-fall2-linux-gtk.tar.gz
+There are many different versions available, for example, J2EE edition, C++ edition, etc...  Since LiteNMS is written in Java it is recommended that the J2EE edition is downloaded.  This can be found here:  [http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/20071103/eclipse-jee-europa-fall2-linux-gtk.tar.gz Eclipse 3.3 J2EE (linux)]
 
 == Maven 2 Plugin ==
 
