@@ -61,10 +61,11 @@ Each step is covered in detail below:
 
 http://litenms.googlecode.com/files/Subclipse1.jpg
 
-A new window should appear.  Enter 'https://litenms.googlecode.com/svn/trunk'.
+A new window should appear.  Enter 'https://litenms.googlecode.com/svn/trunk' and click Finish.
 
 http://litenms.googlecode.com/files/Subclipse2.jpg
 
+An Error window will pop up, stating that the security certificate is not valid.  Click the button Accept Permanently.  A message should appear stating that an error occured validating the site.  Tell it to add anyways.
  # Navigate to the trunk of the repository.  Right-click on it and go to checkout.
  # A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
  # The new project window should appear.  Enter the name of the project and click next.
