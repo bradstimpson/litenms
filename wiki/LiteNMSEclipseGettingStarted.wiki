@@ -1,7 +1,7 @@
 #summary A brief guide to assist in Getting started developing LiteNMS in Eclipse.
 #labels Featured
 
-= Introduction (Work in Progress) =
+= Introduction =
 
 In order to develop LiteNMS you will need the following pieces of Software:
 
@@ -43,7 +43,7 @@ Ideally, to build/develop for LiteNMS, you should use a Linux/BSD operating syst
 
 NOTE:  If you use Cygwin, it will be in your best interest to store your Eclipse Workspace in a directory with no spaces (e.g.  Program_Files as opposed to Program Files).  Spaces in directory names will cause you many headaches.  Also, since Cygwin is not a real Linux environment, you will be required to find a java compiler for Cygwin.  Please refer to: [http://www.cs.drexel.edu/~kschmidt/Ref/cygwinSetup.html site#1].  It may also be possible to use the Windows Sun Java SDK from within Cygwin; unfortunately, that is beyond the scope of this wiki. 
 
-= First Steps =
+= First Steps (Work in Progress) =
 
 So now you should have your development environment setup with the required plugins.  You will need to perform the following steps:
 
