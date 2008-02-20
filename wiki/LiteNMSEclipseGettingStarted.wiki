@@ -66,7 +66,15 @@ A new window should appear.  Enter 'https://litenms.googlecode.com/svn/trunk' an
 http://litenms.googlecode.com/files/Subclipse2.jpg
 
 An Error window will pop up, stating that the security certificate is not valid.  Click the button Accept Permanently.  A message should appear stating that an error occured validating the site.  Tell it to add anyways.
- # Navigate to the trunk of the repository.  Right-click on it and go to checkout.
+
+ # Now, you will need to navigate to the trunk of the repository to download the source code.  If you click on the newly added SVN repository, pending will appear and a popup will appear asking you to enter your username and password, like so,
+
+http://litenms.googlecode.com/files/Subclipse2.jpg
+
+ENTER YOUR USERNAME (your google.com username)
+AND YOUR PASSWORD FROM THIS SITE (http://code.google.com/hosting/settings)
+==> Click save password to make your life easier.
+
  # A window will appear. Make sure the 'Check out as a project configured using the New Project Wizard'.  Click Finish.
  # The new project window should appear.  Enter the name of the project and click next.
  # Voila!  After some downloading, you should have the project in your workspace.
