@@ -80,7 +80,7 @@ http://litenms.googlecode.com/files/Subclipse1.jpg
 
 Here are some of the most common problems I have encountered.
 
-1.  _Maven plugin does not work_:  Most of the time this is because the plugin can not find the Maven local repository, usually installed under {User HOME}/.m2/repository.  If you create this directory and then execute export MAVEN_HOME = "{USER_HOME}/.m2/"  it should correct the issue, where {USER_HOME} equals your home directory.  To make my life easier, I usually add the following lines to my .bashrc file so that they are set automatically on system startup:
+1.  *_Maven plugin does not work_*:  Most of the time this is because the plugin can not find the Maven local repository, usually installed under {User HOME}/.m2/repository.  If you create this directory and then execute export MAVEN_HOME = "{USER_HOME}/.m2/"  it should correct the issue, where {USER_HOME} equals your home directory.  To make my life easier, I usually add the following lines to my .bashrc file so that they are set automatically on system startup:
 
 {{{
 export JAVA_OPTS="-Xms512m -Xmx1024m"
@@ -91,7 +91,7 @@ export MAVEN_OPTS=-Xmx1024m
 
 *NOTE:*  You may want to adjust some of the memory values in the above options to match the amount of system memory available (i.e. if you have 512Mb ram, set -Xms40m -Xmx 256).
 
-2.  _SubClipse plugin won't install_:  This could be caused by a couple of things.  1)  You are not running Eclipse 3.2 or newer or 2) you selected to install all the options.  If you selected to install all the options this will cause a dependency error.  If you open the tree under Subclipse 1.2.x (Eclipse 3.2+), you will see 'Integrations (Optional)'.  If you deselect this, the dependency error should be removed.
+2.  *_Subclipse plugin won't install_*:  This could be caused by a couple of things.  1)  You are not running Eclipse 3.2 or newer or 2) you selected to install all the options.  If you selected to install all the options this will cause a dependency error.  If you open the tree under Subclipse 1.2.x (Eclipse 3.2+), you will see 'Integrations (Optional)'.  If you deselect this, the dependency error should be removed.
 
 
 = Plugins Summary =
