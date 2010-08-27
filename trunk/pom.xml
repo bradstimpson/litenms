@@ -10,9 +10,13 @@
   <name>A simple and flexible Network Management System</name>
   <modules>
     <module>litenms-core</module>
-    <module>litenms-webapp</module>
+    <module>litenms-webui</module>
     <module>litenms-doc</module>
-    <module>litenms-webstart</module>
+    <module>litenms-jwsui</module>
+    <module>litenms-textui</module>
+    <module>litenms-test</module>
+    <module>litenms-mocksnmp</module>
+    <module>dependencies</module>
   </modules>
   <dependencies>
  	<dependency>
@@ -93,6 +97,16 @@
 	     </dependency>
 	  </dependencies>
   </dependencyManagement>
+  <url>http://code.google.com/p/litenms/</url>
+  <issueManagement>
+  	<url>http://code.google.com/p/litenms/</url>
+  </issueManagement>
+  <ciManagement>
+  </ciManagement>
+  <inceptionYear>August 2010</inceptionYear>
+  <organization>
+  	<name>Bradford Stimpson</name>
+  </organization>
   <build>
     <finalName>gmapnms</finalName>
     <pluginManagement>
